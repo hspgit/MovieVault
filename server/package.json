@@ -1,0 +1,31 @@
+{
+  "name": "mern-stack-project-backend-hspgit",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/CS5610-WebDev-Summer25/mern-stack-project-backend-hspgit#readme",
+  "bugs": {
+    "url": "https://github.com/CS5610-WebDev-Summer25/mern-stack-project-backend-hspgit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CS5610-WebDev-Summer25/mern-stack-project-backend-hspgit.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.5.0",
+    "supertest": "^7.1.1"
+  }
+}
