@@ -1,0 +1,8 @@
+.favorite-list-container {
+    display: flex;
+    margin: 2rem;
+}
+
+.favorite-list-info {
+    width: 30%;
+}
