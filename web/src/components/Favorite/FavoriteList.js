@@ -46,7 +46,7 @@ const FavoriteList = ({user, favorites, setFavorites}) => {
     // Callback to handle drop completion
     const handleDropComplete = (newMovieOrder) => {
         const movieIds = newMovieOrder.map(movie => movie._id);
-        FavoritesDataService.updateFavorites(user._id, movieIds)
+        FavoritesDataService.updateFavorites(user.googleId, movieIds)
             .then(() => {
                 setFavorites(movieIds);
             })
